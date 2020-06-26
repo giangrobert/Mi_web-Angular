@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#" routerLink="home"> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" routerLink="servicio">Servicios</a>
@@ -23,14 +23,9 @@
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
+    <input id="CerrarSesión" type="button" class="btn btn-danger" value="Cerrar Sesión" (click)="onLogout()">
   </div>
 </nav>
-<div class="menu">
-  <a href="#" class="barra" id="ba1"><span class="icon-menu"></span></a>
-  <a href="#" class="barra" id="ba2"><img src="../assets/img/logo.png"></a>
-  <a href="#" class="barra" id="ba3"><span class="icon-magnifying-glass"></span></a>
-</div>
-
 <footer class="fixed-bottom">
 <p id="p">Web@Gian copirigth2020</p>
 </footer>
