@@ -7,9 +7,6 @@
 	flex-wrap: wrap;
 	align-items: center;
 }
-.container{
-	padding-bottom: 70px;
-}
 
 .menu .barra{
 	color: white;	
@@ -45,7 +42,7 @@
 	background-color: #0b3d19;
 	color: white;
 	align-items: flex-end;
-	height: 150px;
+	height: 120px;
 	display: flex;
 	flex-wrap: wrap;;
 	align-items: center;
