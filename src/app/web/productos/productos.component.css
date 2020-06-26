@@ -1,0 +1,48 @@
+.pag4{
+	background-image: url(../../../assets/img/Fondo_pag4.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: rgba(0,0,0,0.8);
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+}
+.pag4 .general_pag4{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.pag4 .lista_pag4{
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+	align-items: center;
+}
+.container{
+	padding-bottom: 70px;
+}
+.pag4 #texto_pag4{
+	font-size: 2em;
+	
+}
+
+.pag4 .texto_pag4 #text_init_pag4{
+	font-family: 'Satisfy', cursive;
+	color: #faab34;
+	font-size: 2em;
+}
+.pag4 .lista_pag4 .li1_pag4, .li2_pag4, .li3_pag4, .li4_pag4{
+	flex: 20%;
+}
+.pag4 .lista_pag4 .li1_pag4:hover, .li2_pag4:hover, .li3_pag4:hover, .li4_pag4:hover{
+	font-size: large;
+}
+.pag4 .lista_pag4 .li2_pag4, .li4_pag4{
+	padding-top: 100px;
+}
+.pag4 .lista_pag4 b{
+	font-size: 1.5em;
+}
+.pag4 .lista_pag4 .andmore_pag4{
+	padding-top: 15px;
+	font-size: 1.2em;
+	color: #75ac4c;
+}

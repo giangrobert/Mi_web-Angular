@@ -1,0 +1,40 @@
+.registro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+    font-family:'Barlow', sans-serif;
+    margin: 50px;
+}
+.registro input{
+	font-size: 20px;
+	font-family:'Barlow', sans-serif; 
+	background-color: rgba(255,255,255,0);
+	border: none;
+	border-bottom: 2px solid rgba(0,0,0,0.6);
+	margin: 10px;
+	padding: 5px;
+}
+.registro legend{
+	font-size: 1.4em;
+	color: #faab34;
+}
+.registro form{
+	margin-left: 100px;
+}
+
+.registro .boton_registro{
+	border: none;
+	background-color: #489f10;
+	padding: 10px 30px;
+    color: white;
+	margin: 0 auto;
+	border-radius: 30px;
+}
+.registro .boton_registro:hover{
+	background-color: #fff;
+	color: black;
+}
+.container{
+	padding-bottom: 70px;
+}
