@@ -18,6 +18,7 @@ import { ProductosComponent } from './web/productos/productos.component';
 import { RegistroComponent } from './web/registro/registro.component';
 import { LoginComponent } from './web/login/login.component';
 import { AdministradorComponent } from './web/administrador/administrador.component';
+import { Login2Component } from './web/login2/login2.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AdministradorComponent } from './web/administrador/administrador.compon
     ProductosComponent,
     RegistroComponent,
     LoginComponent,
-    AdministradorComponent
+    AdministradorComponent,
+    Login2Component
   ],
   imports: [
     BrowserModule,

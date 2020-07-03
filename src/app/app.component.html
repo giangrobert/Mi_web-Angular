@@ -19,13 +19,21 @@
         <a class="nav-link" href="#" routerLink="registro">Se Parte de Nosotros</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-    <input id="CerrarSesión" type="button" class="btn btn-danger" value="Cerrar Sesión" (click)="onLogout()">
+    <input type="button" class="btn btn-success" value="Login" *ngIf="!isLogin" routerLink="/">
+    <input id="CerrarSesión" type="button" class="btn btn-danger" value="Salir" (click)="onLogout()" *ngIf="isLogin">
   </div>
 </nav>
+<div class="menu">
+  <div class="b3 barra">
+    <a href="#" id="ba1"><span class="icon-menu icon"></span></a>
+  </div>
+  <div class="b2 barra">
+    <a href="#" id="ba2"><img src="../assets/img/logo.png"></a>
+  </div>
+  <div class="b1 barra">
+    <a href="#" id="ba3"><span class="icon-magnifying-glass icon"></span></a>
+  </div>
+</div>
 <footer class="fixed-bottom">
 <p id="p">Web@Gian copirigth2020</p>
 </footer>

@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\Práctica_Boostrap"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\Framework"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\Framework\\Jquery"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\ProyectoVacio\\appVentas"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\Mi Web"
+		},
+		{
+			"path": "c:\\Users\\gianm\\Downloads\\Reforza\\Reforza II"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\Angular\\ProyectoVacio\\appPPP"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\WEB GIAN\\Angular\\appVentas"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\appBoostrap"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\NEW\\RERFORZAMIENTO\\appVentas"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\appWEB"
+		},
+		{
+			"path": "..\\..\\..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Reforza II"
+	}
+}
