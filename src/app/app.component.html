@@ -4,7 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor01">
+  <div class="navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#" routerLink="home"> Home <span class="sr-only">(current)</span></a>
@@ -25,13 +25,15 @@
 </nav>
 <div class="menu">
   <div class="b3 barra">
-    <a href="#" id="ba1"><span class="icon-menu icon"></span></a>
+    <a href="#" id="ba1"><span class="icon-menu icon men"></span></a>
   </div>
   <div class="b2 barra">
     <a href="#" id="ba2"><img src="../assets/img/logo.png"></a>
   </div>
   <div class="b1 barra">
-    <a href="#" id="ba3"><span class="icon-magnifying-glass icon"></span></a>
+    <a href="#" id="ba3"><span class="icon-magnifying-glass icon buscar"></span></a>
+    <input type="button" class="btn btn-success" value="Login" *ngIf="!isLogin" routerLink="/">
+    <input id="CerrarSesión" type="button" class="btn btn-danger" value="Salir" (click)="onLogout()" *ngIf="isLogin">
   </div>
 </div>
 <footer class="fixed-bottom">
