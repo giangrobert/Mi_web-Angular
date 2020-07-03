@@ -19,6 +19,7 @@ import { RegistroComponent } from './web/registro/registro.component';
 import { LoginComponent } from './web/login/login.component';
 import { AdministradorComponent } from './web/administrador/administrador.component';
 import { Login2Component } from './web/login2/login2.component';
+import { ContactosComponent } from './web/contactos/contactos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { Login2Component } from './web/login2/login2.component';
     RegistroComponent,
     LoginComponent,
     AdministradorComponent,
-    Login2Component
+    Login2Component,
+    ContactosComponent,
   ],
   imports: [
     BrowserModule,

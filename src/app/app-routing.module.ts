@@ -8,16 +8,21 @@ import { LoginComponent } from './web/login/login.component';
 import { AdministradorComponent } from './web/administrador/administrador.component';
 import { AuthGuard } from './guard/auth.guard';
 import { Login2Component } from './web/login2/login2.component';
+import { ContactosComponent } from './web/contactos/contactos.component';
+import { NosotrosComponent } from './web/nosotros/nosotros.component';
 
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'servicio', component:ServiciosComponent},
   {path: 'producto', component:ProductosComponent},
   {path:'registro', component:RegistroComponent},
-  {path:'', component:LoginComponent},
+  {path:'loginn', component:LoginComponent},
   {path:'admin', component: AdministradorComponent, canActivate:[AuthGuard]},
-  {path:'Login' , component: Login2Component}
+  {path:'Login' , component: Login2Component},
+  {path:'contactos' , component: ContactosComponent},
+  {path:'nosotros' , component: NosotrosComponent}
+
 ];
 
 @NgModule({

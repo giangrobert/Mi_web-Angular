@@ -1,0 +1,58 @@
+#pag3{
+	display: flex;
+	align-items: center;
+	flex: 20%;
+	
+}
+#pag3 .text_pag3, .image_pag3{
+	margin-top: 80px;
+	margin-bottom: 80px; 
+}
+#pag3 .text_pag3, .autor_pag3, .title_pag3, .descrip_pag3, .boton_pag3{
+	padding: 10px;
+}
+#pag3 .autor_pag3{
+	font-family: 'Satisfy', cursive;
+	color: #faab34;
+	font-size: 2em;
+}
+#pag3 .title_pag3{
+	font-family: 'Barlow', sans-serif;
+	font-size: 3em;
+	animation-name: pulse;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+#pag3 .descrip_pag3{
+	font-family: 'Barlow', sans-serif;
+	color: black;
+}
+#pag3 .boton_pag3{
+	color: white;
+	background-color: #489f10;
+	border:none;
+	padding: 10px 25px;
+}
+#pag3 .boton_pag3:hover{
+	animation-name: flash;
+	animation-duration: 2s;
+}
+#pag3 .img_pag3{
+    clip-path: circle(50% at 50% 50%);
+    width: 500px;
+
+}
+
+@keyframes pulse {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
