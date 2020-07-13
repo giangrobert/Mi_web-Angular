@@ -10,6 +10,9 @@ import { environment} from '../environments/environment';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
+import { ChartsModule } from 'ng2-charts';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './web/home/home.component';
@@ -20,6 +23,7 @@ import { LoginComponent } from './web/login/login.component';
 import { AdministradorComponent } from './web/administrador/administrador.component';
 import { Login2Component } from './web/login2/login2.component';
 import { ContactosComponent } from './web/contactos/contactos.component';
+import { RouterModule, ROUTES, RoutesRecognized } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,9 @@ import { ContactosComponent } from './web/contactos/contactos.component';
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(),// ToastrModule added
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    BrowserModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

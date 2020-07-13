@@ -1,7 +1,7 @@
 
 <div class="menu">
   <div class="b3 barra">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
@@ -25,7 +25,7 @@
   </div>
   <div class="b1 barra">
     <a href="#" id="ba3"><span class="icon-magnifying-glass icon buscar"></span></a>
-    <input type="button" class="btn btn-success" value="Login" *ngIf="!isLogin" routerLink="loginn">
+    <input type="button" class="btn btn-success" value="Iniciar Sesión" *ngIf="!isLogin" routerLink="loginn">
     <input id="CerrarSesión" type="button" class="btn btn-danger" value="Salir" (click)="onLogout()" *ngIf="isLogin">
   </div>
 </div>
